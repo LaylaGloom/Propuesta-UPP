@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="vendor/fortawesome/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/docs/assets/css/ie10-viewport-bug-workaround.css">
+	<link rel="stylesheet" type="text/css" href="front/estilos.css">
+	<link rel="stylesheet" type="text/css" href="front/slvr.css">
+	<!--<link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/docs/examples/carousel/carousel.css">-->
+	<link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css">
+	<link rel="stylesheet" type="text/css" href="seph/style.css">
+</head>
+<body>
+
+<section>
+<!--Esta sección de sliders con fotos de alumnos y relacionados a la vida universitaria del estudiante-->
+	<div class="container">
+	  <h1>Vida universitaria</h1>
+		<div class="col-md-8 well">
+			<div id="sliderNews" class="carousel slide" data-ride="carousel">
+		<span data-slide="next" class="btn-vertical-slider carousel-control glyphicon glyphicon-circle-arrow-up "
+                        style="font-size: 30px; padding-top: 10px; margin-left:0px; display: block;  z-index: 600;"></span> 
+		<div class="carousel-inner">
+		 <div class="item active">
+		   <div class="row">
+			   	<div class="col-md-6">
+			   			<a href=""><h2>Altares</h2></a>
+			   			<p class="fecha">26 octubre, 2017</p>
+			   			<a href=""><img src="images/vuni/ALTARES1.jpg" class="thumbnail" alt="Image" style="max-height: 200px; max-width: 200px;"></a>	   	
+			   	</div>
+			   	<div class="col-md-6">
+			   		<a href=""><h2>#ValorEs</h2></a>
+			   			<p class="fecha">25 octubre, 2017</p>
+			   			<a href=""><img src="images/vuni/VALORVERDAD.jpg" class="thumbnail" alt="Image" style="max-height: 200px; max-width: 200px;"></a>	   				  
+			   	</div>
+			</div>
+		   	
+		   </div>
+		   <div class="item">
+		   	 <div class="row">
+			   	<div class="col-md-6">
+			   		<a href=""><h2>Deadness of Spirit Festival</h2></a>
+			   			<p class="fecha">25 octubre, 2017</p>
+			   			<a href=""><img src="images/vuni/Deadness.jpg" class="thumbnail" alt="Image" style="max-height: 200px; max-width: 200px;"></a>	   			   	
+			   	</div>
+			   	<div class="col-md-6">
+			   		<a href=""><h2>Semana Médico Cirujano</h2></a>
+			   			<p class="fecha">23 octubre, 2017</p>
+			   			<a href=""><img src="images/vuni/SEMANAMEDICO.jpg" class="thumbnail" alt="Image" style="max-height: 200px; max-width: 200px;"></a>	   				  
+			   	</div>
+			 </div>
+		   </div>
+		   <div class="item">
+		   	 <div class="row">
+			   	<div class="col-md-6">
+			   		<a href=""><h2>Sedes de Rally Latinoamericano de Innovación 2017</h2></a>
+			   			<p class="fecha">18 octubre, 2017</p>
+			   			<a href=""><img src="images/vuni/Rally.jpg" class="thumbnail" alt="Image" style="max-height: 200px; max-width: 200px;"></a>	   			   	
+			   	</div>
+			   	<div class="col-md-6">
+			   		<a href=""><h2>Rally Latinoamericano de Innovación 2017</h2></a>
+			   			<p class="fecha">18 octubre,2017</p>
+			   			<a href=""><img src="images/vuni/rally1.jpg" class="thumbnail" alt="Image" style="max-height: 200px; max-width: 200px;"></a>	   				  
+			   	</div>
+			 </div>
+		   </div>
+		 	
+		 </div>
+			
+		</div>
+
+
+			<span data-slide="prev" class="btn-vertical-slider carousel-control glyphicon glyphicon-circle-arrow-down"
+                        style="font-size: 30px; padding-top:10px; margin-right:0px;  display: block;  z-index: 599;"></span>
+			</div>
+			<div class=" col-md-4">
+			</div>
+		
+	</div>
+</section>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+    $('.btn-vertical-slider').on('click', function () {
+        
+        if ($(this).attr('data-slide') == 'next') {
+            $('#sliderNews').carousel('next');
+        }
+        if ($(this).attr('data-slide') == 'prev') {
+            $('#sliderNews').carousel('prev')
+        }
+
+    });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<section id="allcont" class="container">
+   <div class="row">
+	<div class="col-md-8">
+	<div class="backblack">
+	<center>
+		<div id="myCarousel" class="carousel slide main" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+    <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+  </ol>
+
+  
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href="http://www.cisco.com">
+        <img src="images/slider/00o.jpg" alt="banner1">
+      </a>
+      
+    </div>
+
+    <div class="item">
+      <a href="http://www.cisco.com">
+        <img src="images/slider/01.jpg" alt="banner2">
+      </a>
+      
+    </div>
+
+    <div class="item">
+      <a href="http://www.cisco.com">
+        <img  src="./images/slider/02c.jpg" alt="banner3">
+      </a>
+      
+    </div>
+
+    <div class="item">
+      <a href="http://www.cisco.com">
+        <img src="./images/slider/03.jpg" alt="banner4">
+      </a>
+     
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</center>
+</div>
+	</div>
+	<div class="col-md-4 well container">
+ 	<h2 class="txt-center">Calendario Escolar</h2>
+ 		<center><iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=es.mexican%23holiday%40group.v.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FMexico_City" style="border:solid 1px #777" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+</center>
+ 	
+	</div>
+</div>
+</section>
