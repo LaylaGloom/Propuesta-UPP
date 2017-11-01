@@ -15,6 +15,7 @@
 	<!--<link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/docs/examples/carousel/carousel.css">-->
 	<link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css">
 	<link rel="stylesheet" type="text/css" href="seph/style.css">
+	<link rel="stylesheet" type="text/css" href="front/iconos_centrados.css">
 	
 
 </head>
@@ -25,6 +26,7 @@
 	<!--La primer seccion (slider1) enfocada a fotos y vida de los estudiantes-->
 	<?php include('front/vidaUni.html') ?>
 	<?php include ('front/noticias.html') ?>
+	<<?php include ('front/marketing.html'); ?>
 	<?php include ('seph/hf/footer.html') ?>
 	<!--La segunda parte (slider2) enfocada a convocatorias, anuncios, noticias, etc..-->
 
